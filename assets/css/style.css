@@ -273,3 +273,119 @@ body {
 .navbar-light .navbar-nav .nav-link:hover {
   color: #fff;
 }
+
+/* Coming Soon Timer */
+.wthree-btn {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  border: 2px solid #fff;
+  padding: 0.7em 1.5em;
+  color: #fff;
+  z-index: 9;
+  font-size: 1.1em;
+  outline: none;
+  letter-spacing: 1px;
+  font-family: "Petit Formal Script", cursive;
+  font-weight: 700;
+  background-color: transparent;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+  transition: 0.5s all;
+}
+.wthree-btn.btn-6 span {
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  background-color: #ffc107;
+  -webkit-transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
+  -moz-transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
+  -o-transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
+  -ms-transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
+  transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+.wthree-btn.btn-6:hover,
+.wthree-btn.btn-6:focus {
+  color: #fff;
+}
+.wthree-btn.btn-6:hover span {
+  width: 225%;
+  height: 562.5px;
+}
+.wthree-btn.btn-6:active {
+  background-color: #ffc107;
+}
+/*-- //bth-hover --*/
+/*-- //banner-text --*/
+/*-- timer --*/
+.wthree-soon {
+  text-align: center;
+  position: relative;
+  margin-bottom: 11em;
+}
+.wthree-soon-agileinfo {
+  background: #00bcd4;
+  padding: 2em 0;
+  margin-top: -8em;
+  z-index: 9;
+  position: absolute;
+  width: 72%;
+}
+.wthree-soon h5 {
+  font-size: 2em;
+  margin-bottom: 1em;
+  color: #fff;
+}
+.clock {
+  display: inline-table;
+}
+.clock .column {
+  float: left;
+  background: none;
+  border: 1px solid rgba(255, 255, 255, 0.45);
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  text-align: center;
+  transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  margin: 0 1em;
+  width: 95px;
+  height: 95px;
+  padding: 0.9em 0;
+}
+.agileits-timer {
+  margin: 2em 0;
+}
+.timer {
+  font-size: 2em;
+  display: inline-block;
+  color: #fff;
+  font-family: "Petit Formal Script", cursive;
+}
+.text {
+  font-size: 0.9em;
+  color: #fff;
+  margin-bottom: 0.4em;
+  text-align: center;
+  letter-spacing: 1px;
+  font-weight: 300;
+}
